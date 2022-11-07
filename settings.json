@@ -1,0 +1,19 @@
+{
+  "agent_count": 2000000,
+
+  "move_speed": 0.5,
+  "turn_speed": 0.2,
+  "sensor_angle": 0.1,
+  "sensor_distance": 20,
+
+  "map_width": 800,
+  "map_height": 800,
+
+  "color_r": 244,
+  "color_g": 194,
+  "color_b": 194,
+  "decay_rate": 0.005,
+  "diffuse_rate": 0.2,
+
+  "spawn_method": "circle"
+}
