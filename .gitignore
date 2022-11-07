@@ -1,8 +1,8 @@
-./.vs
-./.vs/*
-./Debug
-./Debug/*
-./x64
-./x64/*
+.vs
+.vs/*
+Debug
+Debug/*
+x64
+x64/*
 
 slime-mold-sim.*
