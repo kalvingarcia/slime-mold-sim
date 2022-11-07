@@ -40,7 +40,7 @@ struct DisplayShader {
 	*/
 	DisplayShader() {
 		std::string vshader_code, fshader_code;
-		std::ifstream vshader_fin("./vertex.glsl"), fshader_fin("./fragment.glsl");
+		std::ifstream vshader_fin("./shaders/vertex.glsl"), fshader_fin("./shaders/fragment.glsl");
 		if (!vshader_fin || !fshader_fin) {
 			fprintf(stderr, "Could not open vertex shader or fragment shader.\n");
 			exit(FILE_READ_FAIL);
@@ -160,7 +160,7 @@ struct ComputeShader {
 	*/
 	ComputeShader() {
 		std::string compute_code;
-		std::ifstream compute_fin("./slime_mold.glsl");
+		std::ifstream compute_fin("../shaders/slime_mold.glsl");
 		if (!compute_fin) {
 			fprintf(stderr, "Could not open compute shader.\n");
 			exit(FILE_READ_FAIL);
