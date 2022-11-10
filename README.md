@@ -5,7 +5,7 @@ I was able to understand the concept and apply it to this project. I am hoping t
 and possibly the ability to have mulitple simulations running in a small "petri dish" within the window. I was also inspired by 
 [Alon Emanuel](https://www.youtube.com/watch?v=fOIL7Gmgbr0) to possibly include food.
 
-![slim-mold-sim-1](https://i.imgur.com/EZu6GJT.gifv)
+![slim-mold-sim-1](https://i.imgur.com/EZu6GJT.gif)
 
 ## Inspiration and References
 I originally watched the [Sebastian Lague video](https://www.youtube.com/watch?v=X-iSQQgOd1A&t=1s) on the physarum, which he built using C#. 
@@ -18,7 +18,7 @@ I made this project in Visual Studio because I found compiling my own binaries f
 I would recommend downloading the project, and then adding the libraries/lib folder into the external libs, and adding the libraries/includes into the external includes.
 Otherwise, the project could potentially be linked manually, but I have yet to have any success in doing so.
 
-![slime-mold-sim-2](https://i.imgur.com/dWmCwNO.gifv)
+![slime-mold-sim-2](https://i.imgur.com/dWmCwNO.gif)
 
 ## Project File Breakdown
 ```
